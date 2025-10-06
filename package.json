@@ -1,0 +1,16 @@
+{
+  "name": "beautiful-frontend-site",
+  "version": "1.0.0",
+  "description": "React + Vite + Tailwind project",
+  "scripts": {
+    "start": "vite ",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "veite": "^4.во",
+    "react": "^18..в",
+    "react-dom": "^18..в",
+    "tailwindcss": "^3..."
+  }
+}
