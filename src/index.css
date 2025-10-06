@@ -1,0 +1,24 @@
+@import tailwindcss from 'tailwindcss/base';
+@import tailwindcss from 'tailwindcss/components';
+@import tailwindcss from 'tailwindcss/utilities';
+
+body {
+  background-color: linear-gradient(to bottom, #101629, #152781);
+  color: white;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+body::before, html:before {
+  content: '';
+  background-color: black;
+}
+
+body.glassfx {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5);
+}
+
+.glow {
+  box-shadow: 0 0 25px #93df62;
+}
